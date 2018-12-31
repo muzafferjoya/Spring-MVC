@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: test.TestJUnitTalentContest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.004 s <<< FAILURE! - in test.TestJUnitTalentContest
+testJuggler  Time elapsed: 0.095 s  <<< ERROR!
+java.lang.ClassCastException: com.sun.proxy.$Proxy33 cannot be cast to competitors.Juggler
+	at test.TestJUnitTalentContest.testJuggler(TestJUnitTalentContest.java:42)
+

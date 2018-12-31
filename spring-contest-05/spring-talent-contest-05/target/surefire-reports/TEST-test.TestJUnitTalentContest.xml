@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.TestJUnitTalentContest" time="1.004" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Courses\Spring\Lesson06\spring-talent-contest-05\target\test-classes;C:\Courses\Spring\Lesson06\spring-talent-contest-05\target\classes;C:\Users\user\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.1\junit-jupiter-api-5.3.1.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.3.1\junit-platform-commons-1.3.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.1\junit-jupiter-engine-5.3.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.3.1\junit-platform-engine-1.3.1.jar;C:\Users\user\.m2\repository\org\springframework\spring-test\5.1.0.RELEASE\spring-test-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire1871377063334214658\surefirebooter2434481609105382775.jar C:\Users\user\AppData\Local\Temp\surefire1871377063334214658 2018-10-02T19-17-32_755-jvmRun1 surefire7695468902840961905tmp surefire_07851924720068563103tmp"/>
+    <property name="surefire.test.class.path" value="C:\Courses\Spring\Lesson06\spring-talent-contest-05\target\test-classes;C:\Courses\Spring\Lesson06\spring-talent-contest-05\target\classes;C:\Users\user\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.1\junit-jupiter-api-5.3.1.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.3.1\junit-platform-commons-1.3.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.1\junit-jupiter-engine-5.3.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.3.1\junit-platform-engine-1.3.1.jar;C:\Users\user\.m2\repository\org\springframework\spring-test\5.1.0.RELEASE\spring-test-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\user\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="basedir" value="C:\Courses\Spring\Lesson06\spring-talent-contest-05"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire1871377063334214658\surefirebooter2434481609105382775.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.dir" value="C:\Courses\Spring\Lesson06\spring-talent-contest-05"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testJuggler" classname="test.TestJUnitTalentContest" time="0.095">
+    <error message="com.sun.proxy.$Proxy33 cannot be cast to competitors.Juggler" type="java.lang.ClassCastException">java.lang.ClassCastException: com.sun.proxy.$Proxy33 cannot be cast to competitors.Juggler
+	at test.TestJUnitTalentContest.testJuggler(TestJUnitTalentContest.java:42)
+</error>
+    <system-out><![CDATA[19:17:33 [main] INFO  org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+19:17:33 [main] INFO  org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53976f5c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2bfc268b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f8dad04]
+19:17:34 [main] INFO   - Starting Spring Framework
+19:17:34 [main] INFO   - getting the first Competitor
+19:17:34 [main] INFO   - Start executing Juggler
+The show is about to start, please take a seat...
+Please turn off cell phones...
+juggling 10 balls
+The show is over, clap clap clap
+]]></system-out>
+  </testcase>
+</testsuite>
